@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  
+  .header-1 {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    /*font-size: 30px;*/
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -1px;
+    /*line-height: 50px;*/
+    /*text-transform: none;*/
+    color: #423e3e;
+    /*text-align: center;*/
+    display: flex;
+  }
+
+  #page {
+    height: 100vh;
+  }
+
+  #page > * {
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  header img {
+    height: 5.4rem;
+    object-fit: contain;
+    width: 16rem;
+  }
+
+  #page > div {
+    padding: 4rem 11.2rem;
+  }
+
+  main{
+    margin-top: 11.4rem;
+  }
+
+  .headline{
+    max-width: 35rem;
+  }
+
+  form {
+    margin-top: 4rem;
+  }
+
+  .input-wrapper {
+    position: relative;
+  }
+
+  form input {
+    width: 100%;
+    margin-block: 2rem;
+    padding: 1.4rem 2.4rem;
+    border-radius: 0.6rem;
+    border: 0.1rem solid #e2e8f0;
+  }
+
+  form .input-wrapper + .input-wrapper{
+    margin-top: 1.6rem;
+  }
+
+  .label-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ::-ms-reveal {
+    display: none;
+  }
+
+  .eye {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 52%;
+    right: 5%;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  form button{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+    background: #7c3aed;
+    border-radius: 0.4rem;
+    color: aliceblue;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-block: 2rem;
+    box-sizing: border-box;
+  }
+
+  form button:active,
+
+  form button:hover{
+    background: #9f67ff;
+  }
+
+  a {
+    text-decoration: none;
+    
+  }
+
+  .forg{
+    padding-left: 60%;
+    position: relative;
+  }
+
+  form button:focus {
+    outline: 2px solid #7c3aed;
+    border-radius: 0.4rem;
+  }
+
+  @media (max-width: 900px){
+
+    #page > * {
+        width: 100%;
+    }
+
+    #page > img {
+        display: none;
+    }
+
+    #page > div {
+        padding: 11rem;
+    }
+
+    main {
+        max-width: 100%;
+    }
+  }
+
+  @media (max-width: 600px){
+    #page > div {
+        padding: 4rem;
+    }
+  }
+
+
+
+
+
